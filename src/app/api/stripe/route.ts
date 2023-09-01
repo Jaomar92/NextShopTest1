@@ -9,7 +9,7 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY as string, {
   apiVersion: "2023-08-16",
 });
 {
-  /** this is to configure with stripe */
+  /** this is to configure with stripe -- I */
 }
 
 export async function POST(req: Request, res: Response) {
